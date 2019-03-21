@@ -66,7 +66,7 @@ public class His {
     Merge.mergesort(start);
     long elapsedTime = System.currentTimeMillis() - startTime;
     if(Arrays.equals(start,result)){
-      System.out.println("PASS Case "+name(type)+"\t array, size:"+start.length+"\t"+elapsedTime/1000.0+"sec ");
+      System.out.println("PASS Case "+name(type)+"\t array, size:"+start.length+"\t"+elapsedTime/startTime);
     }else{
       System.out.println("FAIL ! ERROR ! "+name(type)+" array, size:"+size+"  ERROR!");
     }
